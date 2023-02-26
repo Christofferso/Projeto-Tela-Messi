@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+font-size: 100%;
+background: #000000;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.cabecalho__img{
+    height: 90px;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+.cabecalho__menu-item{
+    font-family: 'sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    border-top: 0.1px solid white;
+    margin-bottom: 48px;
+}
+.conteudo__principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo__principal-esrito{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudo__titulo{
+    font-weight: 700;
+    font-size: 74px;
+    color: #ffffff;
+    text-decoration-style: solid;
+}
+.conteudo__subtitulo{
+    font-weight: 400px;
+    font-size: 24px;
+    color: white;
+}
+.conteudo__botao:hover{
+    background-color: #ABABAB;
+}
+.conteudo__botao{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+.conteudo__secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo__titulo__secundario{
+    border-top: 0.1px solid whitesmoke;
+    padding-top: 48px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.1px solid white;
+
+}
+.rodape__imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+.conteudo__texto, .conteudo__titulo__secundario{
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
